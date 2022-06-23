@@ -1,7 +1,7 @@
 import React from "react";
 import workHistory from "../ExData";
 import "../styles/experience.css";
-import Linkicon from "../link-icon.svg";
+import { FiExternalLink } from "react-icons/fi";
 
 function Experience() {
   return (
@@ -24,16 +24,12 @@ function Experience() {
                           {work?.link && (
                             <div>
                               <a
+                                className="work-link"
                                 href={work.link}
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                                <img
-                                  src={Linkicon}
-                                  alt="link to live website"
-                                  width="24px"
-                                  height="24px"
-                                />
+                                <FiExternalLink />
                               </a>
                             </div>
                           )}

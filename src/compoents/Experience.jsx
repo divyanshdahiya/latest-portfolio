@@ -18,8 +18,8 @@ function Experience() {
                   <div className="cd-timeline-block">
                     <div className="cd-timeline-img cd-picture"></div>
                     <div className="cd-timeline-content">
-                      <h1 className="text-color">
-                        {work?.companyName}
+                      <div className="work-heading">
+                        <h1 className="text-color">{work?.companyName}</h1>
                         <span>
                           {work?.link && (
                             <div>
@@ -34,7 +34,7 @@ function Experience() {
                             </div>
                           )}
                         </span>
-                      </h1>
+                      </div>
                       <h4 className="work-role">{work?.role}</h4>
 
                       <div class="timeline-content-info">

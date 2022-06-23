@@ -13,3 +13,24 @@
 #astronaut-logo{
     width: 500px;
 }
+@media screen and (max-width: 1400px) {
+    #astronaut-logo{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .header-item{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    #astronaut-logo{
+        width: 200px;
+    }
+    .header{
+        flex-direction: column-reverse;
+    }
+    .header-item{
+        text-align: center;
+    }
+}

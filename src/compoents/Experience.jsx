@@ -6,7 +6,7 @@ import { FiExternalLink } from "react-icons/fi";
 function Experience() {
   return (
     <div>
-      <section id="projects">
+      <section id="experience">
         <header>
           <h2 className="exp-tittle font-style">Experience</h2>
         </header>

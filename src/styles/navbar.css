@@ -2,8 +2,9 @@
     text-align: center;
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     justify-content: space-around;
+    padding-top: 30px;
 }
 .navbar ul{
     display: flex;

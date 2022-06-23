@@ -3,26 +3,36 @@ import "../styles/navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar">
+    <nav className="navbar font-style">
       <div>
-        <h1>Divyansh Dahiya</h1>
+        <h1 className="text-color font-style">Divyansh Dahiya</h1>
       </div>
       <div>
         <ul>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience" className="font-style">
+              Experience
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" className="font-style">
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills" className="font-style">
+              Skills
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" className="font-style">
+              Contact
+            </a>
           </li>
           <li>
-            <a href="#resume">Resume</a>
+            <a href="#resume" className="font-style">
+              Resume
+            </a>
           </li>
         </ul>
       </div>

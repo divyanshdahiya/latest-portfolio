@@ -2,6 +2,7 @@ import Navbar from './compoents/Navbar';
 import Header from './compoents/Header';
 import Experience from './compoents/Experience';
 import Projects from './compoents/Projects';
+import Skills from './compoents/Skills';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Experience/>
       <Projects/>
+      <Skills/>
       </div>
     </div>
   );

@@ -1,0 +1,33 @@
+
+.skills-heading h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Genos", sans-serif; 
+}
+.skill-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 5%;
+    text-align: center;
+}
+.skill-card img{
+    width: 64px;
+    height: 64px;
+}
+
+@media screen and (max-width: 500px){
+
+    .skill-card img{
+    width: 55px;
+    height: 55px;
+}
+
+}

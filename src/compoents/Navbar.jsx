@@ -40,7 +40,11 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-link">
-            <a href="#resume" className="font-style">
+            <a
+              href="https://drive.google.com/file/d/1jp3J3xzsuGAoWGO_C4W3hqzOccrLD5mZ/view?usp=sharing"
+              className="font-style"
+              target="_blank"
+            >
               Resume
             </a>
           </li>

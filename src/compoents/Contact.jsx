@@ -72,11 +72,7 @@ function Contact() {
               srcSet="./images/rocket-320.webp 320w, ./images/rocket.webp 768w"
               type="image/webp"
             />
-            <source
-              srcSet="./images/rocket.png"
-              sizes="(min-width: 768px) 50vw, 100vw"
-              type="image/png"
-            />
+            <source srcSet="./images/rocket.png" type="image/png" />
             <img
               className="contact-image"
               loading="lazy"

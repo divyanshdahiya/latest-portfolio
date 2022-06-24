@@ -30,7 +30,7 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-link">
-            <a href="#skills" className="font-style">
+            <a href="#skill" className="font-style">
               Skills
             </a>
           </li>

@@ -44,6 +44,7 @@ function Navbar() {
               href="https://drive.google.com/file/d/1jp3J3xzsuGAoWGO_C4W3hqzOccrLD5mZ/view?usp=sharing"
               className="font-style"
               target="_blank"
+              rel="noreferrer"
             >
               Resume
             </a>

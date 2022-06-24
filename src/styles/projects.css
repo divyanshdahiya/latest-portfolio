@@ -1,0 +1,109 @@
+#projects{
+    width: 90%;
+    margin: auto;
+}
+.projects-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Genos", sans-serif; 
+    padding: 50px 0 100px 0;
+}
+.projects-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    margin-bottom: 150px;
+}
+.project-image{
+    width: 500px;
+    border-radius: 20px;
+}
+.project-content{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+}
+.project-content h2{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+}
+.project-content p{
+    line-height: 26px;
+}
+.projects-techs{
+    display: flex;
+    flex-direction: row;
+}
+.projects-tech{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-link img{
+    margin: 5px;
+}
+.project-more{
+    display: flex;
+    justify-content: center;
+    margin: -70px 0 100px 0;
+}
+.project-github{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid grey;
+    width: 25%;
+    border-radius: 10px;
+}
+.project-github:hover{
+    color: black;
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 1500px) {
+    .project-content{
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .project-content{
+        margin-right: 0px;
+    }
+    .projects-card{
+        flex-direction: column;
+        width: 100%; 
+        margin-bottom: 50px;
+    }
+    .project-content{
+        margin: 50px 100px;
+    }
+}
+@media screen and (max-width: 600px){
+    .project-image{
+        width: 370px;
+        border-radius: 20px;
+    }
+    .project-content{
+        margin: 30px 10px;
+    }
+    .projects-techs{
+        flex-wrap: wrap;
+    }
+    .project-github{
+        margin-top: 20px;
+        width: 80%;
+    }
+    #projects{
+        width: 95%;
+    }
+}

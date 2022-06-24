@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "The Project Idea ",
+    image: "./images/theprojectidea.png",
+    description:
+      "Website with over 50+ Web Development projects with tutorials from where students can choose any project they want with difficulty level mentioned. It will help students in finding the projects that they can build",
+    tools: ["React.JS", "MongoDB", "NodeJS", "Express.JS"],
+    github: "https://github.com/divyanshdahiya/TheProjectIdea.com",
+    link: "https://theprojectidea.com",
+  },
+  {
     title: "Omni Games (Discord Bot) ",
     image: "./images/omniBot.png",
     description:

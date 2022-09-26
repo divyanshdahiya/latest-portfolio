@@ -41,7 +41,7 @@ function Navbar() {
           </li>
           <li className="nav-link">
             <a
-              href="https://drive.google.com/file/d/1jp3J3xzsuGAoWGO_C4W3hqzOccrLD5mZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1An62jdFsmX3l2lIYgjSh49baUw8b3OB-/view?usp=sharing"
               className="font-style"
               target="_blank"
               rel="noreferrer"

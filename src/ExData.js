@@ -1,13 +1,14 @@
 const workHistory = [
     {
-    companyName: "Moody's Analytics",
+    companyName: "Moody's",
     role: "Associate Programmer Analyst",
     duration: "July'23 – present",
     workDes: [
       "Contributing to Orbis integration for Credit Lens in Lending OU and assisting in testing of the integration ",
       "Revamped user interfaces and components using React.js, resulting in enhanced user engagement, faster load time, faster performance and usability ",
+      "Part of the maintenance team, managing defects and bugs for the CreditLens product to ensure smooth functionality and performance",  
     ],
-    exposer: ["React", "Redux",],
+    exposer: ["React", "Redux","C#",".NET",],
     link: "",
   },
   {
